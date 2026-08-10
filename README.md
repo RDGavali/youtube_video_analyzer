@@ -15,10 +15,13 @@ An AI-powered YouTube Video Analyzer that analyzes a YouTube video using only it
 ## 📸 Screenshots
 
 ### Streamlit Application
+<img width="1350" height="622" alt="image" src="https://github.com/user-attachments/assets/3cbf1220-4c88-4ca9-af7c-a8854e9e0f0b" />
+<img width="1303" height="595" alt="image" src="https://github.com/user-attachments/assets/1e057dc1-f9ec-4dc8-a609-51f6205ce9c3" />
+<img width="1238" height="598" alt="image" src="https://github.com/user-attachments/assets/ab39ea09-c261-4825-bd1d-4bc2b17eeac1" />
+<img width="1208" height="628" alt="image" src="https://github.com/user-attachments/assets/7f7bc152-9abf-4c4b-9fba-afcae978edc7" />
 
-![YouTube Video Analyzer](screenshots/youtube_analyzer.png)
 
-> 📌 Upload your Streamlit application screenshot to the `screenshots` folder and name it `youtube_analyzer.png`.
+
 
 ## 🛠️ Tech Stack
 
