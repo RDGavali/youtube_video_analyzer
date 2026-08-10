@@ -1,14 +1,21 @@
+import os
+import streamlit as st
 from textwrap import dedent 
 from dotenv import load_dotenv 
 from agno.agent import Agent
 from agno.models.groq import Groq
 from agno.tools.youtube import YouTubeTools
 load_dotenv() 
+api_key = os.getenv("GROQ_API_KEY")
+
+if not api_key:
+    api_key = st.secrets["GROQ_API_KEY"]
 
 def build_youtube_agent():
     return Agent(
         name="YouTube Agent",
-        model=Groq(id="openai/gpt-oss-120b"),
+        model=Groq(id="openai/gpt-oss-120b",api_key=api_key),
+        
         tools=[YouTubeTools()],
         instructions=dedent(""" \
             You are an expert YouTube content analyst with a keen eye for detail! 🎓
